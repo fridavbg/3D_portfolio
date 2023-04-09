@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "vite build && purgecss --config ./purgecss.config.cjs --output ./dist/css/",
         "preview": "vite preview",
         "predeploy": "npm run build",
         "deploy": "npm run build && gh-pages -d dist"
@@ -31,6 +31,7 @@
         "autoprefixer": "^10.4.13",
         "gh-pages": "^5.0.0",
         "postcss": "^8.4.21",
+        "purgecss": "^5.0.0",
         "tailwindcss": "^3.2.6",
         "vite": "^4.1.0"
     }

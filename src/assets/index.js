@@ -17,6 +17,8 @@ import codeop from "./codeop.svg";
 import spark from "./spark.png";
 import texteditor from "./texteditor.png";
 import linkedin from "./linkedin.gif";
+import symfony from "./symfony.png";
+import php from "./php.png";
 
 export {
     logo,
@@ -37,4 +39,6 @@ export {
     spark,
     texteditor,
     linkedin,
+    symfony,
+    php,
 };
